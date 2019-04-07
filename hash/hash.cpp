@@ -16,15 +16,15 @@ int main(int argc, char *argv[])
 {
   char hashFunction[] = "sha256"; // zvolena hashovaci funkce ("sha1", "md5" ...)
 
-  unsigned int sameBytes         =  0;
-	unsigned int 											hexLen;
-	string 														hexChars, randomString;
-	vector < int > 										byteArray;
+  unsigned int sameBytes =  0;
+	unsigned int 	hexLen;
+	string hexChars, randomString;
+	vector < int > 	byteArray;
 	char textToHash [ ALPHABET_NUM + 1 ];
 	const unsigned char alfaNum [] = 	"0123456789"
 																	 	"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 																		"abcdefghijklmnopqrstuvwxyz";
-	long long int num               = 0;
+	long long int num  = 0;
 
 	// -----------------------------------------------------------------------------------	
 	// len values 
