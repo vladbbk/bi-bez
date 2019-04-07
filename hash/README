@@ -1,0 +1,3 @@
+First homework for hash function:
+	(*) takes as input ( 2 * x ) number of bytes as hash
+	(*) finds input whose hash begins with input
